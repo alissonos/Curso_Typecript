@@ -1,23 +1,35 @@
+"use strict";
 // 1 - numbers
-var x = 10;
+let x = 10;
 console.log(x);
 x = 16;
 console.log(typeof x);
-var y = 15.6446546;
+const y = 15.6446546;
 console.log(typeof y);
 console.log(y);
 console.log(y.toPrecision(3));
 // 2 - string 
-var firstName = "Álisson";
+const firstName = "Álisson";
 console.log(firstName.toUpperCase());
-var fullName;
-var lastName = "Oliveira";
+let fullName;
+const lastName = "Oliveira";
 fullName = firstName + " " + lastName;
 console.log(fullName);
 console.log(typeof fullName);
 // 3 - boolean
-var a = false;
+let a = false;
 console.log(a);
 console.log(typeof a);
 a = true;
 console.log(a);
+// 4 - inference e annotation
+const ann = "Teste";
+let inf = "Teste";
+//ann = 1
+//inf = 1
+console.log("Testando...");
+// Desafio 2
+const n1 = 10;
+const numberToString = n1.toString();
+const printMyNumber = `Eu vou imprimir o número ${numberToString}`;
+console.log(printMyNumber);
