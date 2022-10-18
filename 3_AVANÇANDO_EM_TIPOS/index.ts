@@ -20,4 +20,10 @@ console.log(nums)
 console.log(nums.length)
 console.log(nums.splice(1))
 
+// 3 - any
 
+const arr1: any = [1, "teste", true, [], {nome: 'Álisson'}]
+
+console.log(arr1)
+
+arr1.push([1, 2, 3])
