@@ -22,3 +22,9 @@ function soma(a, b) {
     console.log(a + b);
 }
 soma(4, 5);
+// 5 - Retorno de Função
+function greeting(name) {
+    return `Olá ${name}`;
+}
+console.log(greeting("Álisson"));
+//console.log(greeting(123))
