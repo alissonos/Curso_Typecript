@@ -14,7 +14,7 @@ console.log(nums);
 console.log(nums.length);
 console.log(nums.splice(1));
 // 3 - any
-const arr1 = [1, "teste", true, [], { nome: 'Álisson' }];
+const arr1 = [1, "teste", true, [], { nome: "Álisson" }];
 console.log(arr1);
 arr1.push([1, 2, 3]);
 // 4 - parâmetros tipados
@@ -34,3 +34,12 @@ setTimeout(function () {
     //console.log(parseFloat(salary))
     console.log(salary);
 }, 2000);
+// 7 - Tipos de Objeto
+function passCoordinates(coord) {
+    console.log("x coordinates: " + coord.x);
+    console.log("y coordinates: " + coord.y);
+}
+const objCoord = { x: 45, y: 456 };
+passCoordinates(objCoord);
+//passCoordinates(1,1)
+const pessoaObj = { nome: "Álisson", surname: "Oliveira" };
